@@ -68,7 +68,7 @@ Die beiden folgenden zweistimmigen Notentexte sollen dieses Problem verdeutliche
 <img width="500" alt="grafik" src="https://github.com/user-attachments/assets/4f5ac704-5208-40aa-8637-3d9f751418db" />
 
 Die zweite Grafik zeigt zudem die Gültigkeit von Stimmkreuzungen: Es ist durchaus erlaubt, eine eigentlich höhere Stimmlage (blau) unter eine tiefere Stimmlage (grün) zu setzen; insbesondere in der frühbarocken Choralmusik von Michael Praetorius kommt dies durchaus häufig und großflächig vor.
-Auch das lässt sich in seiner Gänze außer der Analyse von Audioinformationen nur durch das Studium der zugehörigen Notentexte erkennen.
+Auch das lässt sich in seiner Gänze nur durch das Studium der entsprechenden grafischen Notentexte erkennen.
 Die vorliegende Anwendung nimmt daher auf Stimmkreuzungen und -dopplungen keine Rücksicht und analysiert lediglich die unabhängig erklingenden Stimmen.
 
 
