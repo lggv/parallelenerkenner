@@ -168,7 +168,7 @@ def analyze_progression(frame_length, frame_idx):
 # PROGRAMM
 #============================================
 
-N, wavedata = wave.read(filename)
+RATE, wavedata = wave.read(filename)
 wavedata = np.array(wavedata)
 
 found = False
@@ -176,9 +176,9 @@ found = False
 # Framelänge in Sekunden
 FRAME_LENGTH = 0.5
 # ... und in Samples
-FRAME_SIZE = int(FRAME_LENGTH * N)
+FRAME_SIZE = int(FRAME_LENGTH * RATE)
 
-print("Analyzing {0}s sample \"{1}\" at {2} Hz".format(round(len(wavedata) / N, 1), filename, N))
+print("Analyzing {0}s sample \"{1}\" at {2} Hz".format(round(len(wavedata) / RATE, 1), filename, RATE))
 
 step = 0
 frame_idx = 0
@@ -189,7 +189,7 @@ while step < len(wavedata):
     else:
         frame = wavedata[step:step+FRAME_SIZE]
 
-    frame_voices = get_frame_voices(frame, N, 5.5)
+    frame_voices = get_frame_voices(frame, RATE, 5.5)
 
     if not frame_voices:
         if verbose:
