@@ -45,7 +45,7 @@ Die Anwendung verwaltet zwei verschiedene Stimmdispositionen: Zum einen die Stim
 Stimme in einem Frame, so wird die komplette aktuelle Stimmdisposition aktualisiert und die vorangegangene Disposition nimmt die alten Werte der aktuellen an. So lässt sich jede Akkordveränderung einzeln
 untersuchen, was für die Ermittlung von Parallelen essentiell ist.
 
-Die Anwendung arbeitet in der heute üblichen [gleichstufigen Stimmung](https://de.wikipedia.org/wiki/Gleichstufige_Stimmung). Diese liegt in chromatischer Sortierung vor. Ist ein Ton (und dessen Index in der Liste) bekannt, lässt sich somit
+Die Anwendung arbeitet in der heute üblichen [gleichstufigen Stimmung](https://de.wikipedia.org/wiki/Gleichstufige_Stimmung). Diese liegt in chromatischer Sortierung aufgelistet vor. Ist ein Ton (und dessen Index in der Liste) bekannt, lässt sich somit
 durch Abstandsberechnung sehr leicht die zugehörige Quinte (Oktave / Quinte über der Oktave etc.) bestimmen. Gibt es in der vorangegangenen Stimmdisposition solche Intervalle, werden dieselben Stimmen in der aktuellen Disposition untersucht.
 Weisen auch sie dasselbe Intervall auf, ist eine Parallele gefunden. Mithilfe der Länge des Frames in Sekunden und der Framenummer lässt sich zudem die ungefähre Position der Parallele in der Audiodatei ermitteln.
 
@@ -67,7 +67,7 @@ Die beiden folgenden zweistimmigen Notentexte sollen dieses Problem verdeutliche
 <img width="500" alt="grafik" src="https://github.com/user-attachments/assets/e05018ec-bee6-4653-a7be-a7e129ea6825" />
 <img width="500" alt="grafik" src="https://github.com/user-attachments/assets/4f5ac704-5208-40aa-8637-3d9f751418db" />
 
-Die zweite Grafik zeigt zudem die Gültigkeit von Stimmkreuzungen: Es ist durchaus erlaubt, eine eigentlich höhere Stimmlage unter eine tiefere Stimmlage zu setzen; insbesondere in der frühbarocken Choralmusik von Michael Praetorius kommt dies durchaus häufig und großflächig vor.
+Die zweite Grafik zeigt zudem die Gültigkeit von Stimmkreuzungen: Es ist durchaus erlaubt, eine eigentlich höhere Stimmlage (blau) unter eine tiefere Stimmlage (grün) zu setzen; insbesondere in der frühbarocken Choralmusik von Michael Praetorius kommt dies durchaus häufig und großflächig vor.
 Auch das lässt sich in seiner Gänze außer der Analyse von Audioinformationen nur durch das Studium der zugehörigen Notentexte erkennen.
 Die vorliegende Anwendung nimmt daher auf Stimmkreuzungen und -dopplungen keine Rücksicht und analysiert lediglich die unabhängig erklingenden Stimmen.
 
