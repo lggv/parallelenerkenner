@@ -9,6 +9,14 @@ bei einem Akkordwechsel.
 
 Die Fragestellung dieser Anwendung ist, inwieweit solche Parallelen in einer eingegebenen Audiodatei automatisch ermittelt werden können.
 
+## Anwendung
+
+Die Anwendung wurde in Python geschrieben und befindet sich in der Datei `parallel.py`. In einer Python-Umgebung lässt sie sich mit `python parallel.py <FILE> [-v]` starten.\
+\<FILE\> = Dateiname der WAV-Audiodatei relativ zum Skript\
+-v = Optionales Flag. Wenn gesetzt, zeige auch die jeweiligen Akkordverläufe an, ansonsten werden nur etwaige Parallelen angezeigt\\
+
+Zur Ausführung der Anwendung werden zudem NumPy und SciPy benötigt.
+
 ## Choräle
 
 Im Gegensatz zu hochpolyphonen Chorwerken weisen sich Choralsätze (bei weiterhin bestehender Unabhängigkeit der vier Stimmen voneinander) durch eine einfachere, homophonere Gestaltung aus.
