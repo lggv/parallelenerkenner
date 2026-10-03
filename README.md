@@ -15,7 +15,8 @@ Die Anwendung wurde in Python geschrieben und befindet sich in der Datei `parall
 \<FILE\> = Dateiname der WAV-Audiodatei relativ zum Skript\
 -v = Optionales Flag. Wenn gesetzt, zeige auch die jeweiligen Akkordverläufe an, ansonsten werden nur etwaige Parallelen angezeigt\\
 
-Zur Ausführung der Anwendung werden zudem NumPy und SciPy benötigt.
+Im Verzeichnis "samples" befinden sich einige Audiodateien mit und ohne Parallelführung, um die Anwendung zu testen.\
+Zur Ausführung der Anwendung werden außerdem NumPy und SciPy benötigt.
 
 ## Choräle
 
